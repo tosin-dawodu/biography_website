@@ -120,11 +120,9 @@ img {
   }
   .card {
     border-radius: 2rem !important;
-    border: 10px solid green !important;
     height: auto;
   }
   .card > img {
-    border: 5px solid violet;
     min-height: initial;
   }
 }
