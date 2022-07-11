@@ -49,7 +49,6 @@
 .card-20 {
   grid-area: 7/3/8/5;
 }
-
 .card-22 {
   grid-area: 9/1/11/2;
 }
@@ -82,11 +81,13 @@
 }
 .card {
   border-radius: 2rem !important;
+  min-height: 30vh;
 }
 .card > img {
-  /* border: 5px solid violet; */
+  border: 5px solid;
   min-height: 100%;
   border-radius: 2rem;
+  max-height: 40vh;
 }
 .card-img-overlay {
   /* border: 5px solid black; */
@@ -104,14 +105,12 @@
   right: 0;
   text-align: center;
 }
-img {
-  max-height: 40vh;
-}
 #foot-text {
-  border: 2px solid orange;
-  padding: 1rem;
-  text-align: end;
+  border-top: 1px dotted;
+  padding: 0.75rem 0;
+  text-align: center;
   font-size: 1rem;
+  color: rgb(100, 92, 92);
 }
 @media (min-width: 300px) and (max-width: 600px) {
   .gallery-cards {
@@ -123,7 +122,8 @@ img {
     height: auto;
   }
   .card > img {
-    min-height: initial;
+    min-height: auto;
+    max-height: 70vh;
   }
 }
 /* @media (min-width: 601px) and (max-width: 900px) {

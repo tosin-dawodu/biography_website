@@ -19,10 +19,15 @@
 .saying {
   border: 3px solid red;
   margin-bottom: 2rem;
+  text-align: center;
+}
+#wording-name {
+  font-weight: 800;
 }
 #foot-text {
-  /* border: 2px solid orange; */
-  padding: 1rem;
-  text-align: end;
+  border-top: 1px dotted;
+  padding: 0.75rem 0;
+  text-align: center;
   font-size: 1rem;
+  color: rgb(100, 92, 92);
 }
