@@ -1,9 +1,9 @@
 // dynamic text for the extra div
 const wordings = document.getElementById("wording");
 const sayings = [
-  "It pays to be good and it costs you nothing",
-  "Let us continue to give thanks to the Lord",
-  "Always be thankful",
+  "It pays to be good and it costs you nothing.",
+  "Let us continue to give thanks to the Lord.",
+  "Always be thankful.",
   "Aburo, gbo gbo é a da.",
 ];
 setInterval(() => {
