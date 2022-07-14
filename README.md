@@ -1,0 +1,1 @@
+Simple biography page with minor implementation of BootStrap as a framework and some JS 
