@@ -3,6 +3,12 @@
   font-family: "Titillium Web", sans-serif;
   font-size: 1.1rem;
 }
+.navbar-collapse {
+  /* border: 2px solid green;
+  background: rgba(0, 0, 0, 0.2); */
+  position: relative;
+  z-index: 4;
+}
 .navbar-light .navbar-nav .nav-link {
   color: #000000;
 }
